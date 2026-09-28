@@ -1,4 +1,4 @@
-package com.fitnessapp.apigatewayservice.config;
+package com.synex.synexapigatewayservice.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -14,8 +14,9 @@ public class SecurityConfig {
     public SecurityWebFilterChain securityWebFilterChain(ServerHttpSecurity http) {
         return http
                 .csrf(ServerHttpSecurity.CsrfSpec::disable)
-                .authorizeExchange(exchange ->
-                        exchange.anyExchange().authenticated())
+                .authorizeExchange(exchange -> exchange
+                        .pathMatchers("/actuator/health").permitAll()
+                        .anyExchange().authenticated())
                 .oauth2ResourceServer(oauth2 ->
                         oauth2.jwt(jwt -> {
                         }))

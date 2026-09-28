@@ -1,4 +1,4 @@
-package com.fitnessapp.apigatewayservice;
+package com.synex.synexapigatewayservice;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

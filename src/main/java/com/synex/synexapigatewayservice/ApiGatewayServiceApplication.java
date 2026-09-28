@@ -1,4 +1,4 @@
-package com.fitnessapp.apigatewayservice;
+package com.synex.synexapigatewayservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

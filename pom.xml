@@ -8,11 +8,11 @@
         <version>4.1.1</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.fitnessapp</groupId>
-    <artifactId>api-gateway-service</artifactId>
+    <groupId>com.synex</groupId>
+    <artifactId>synex-api-gateway-service</artifactId>
     <version>0.1.1-SNAPSHOT</version>
     <packaging>jar</packaging>
-    <name>api-gateway-service</name>
+    <name>synex-api-gateway-service</name>
     <description>Api Gateway Service For Microservices</description>
     <url/>
     <licenses>
@@ -85,7 +85,7 @@
     </dependencyManagement>
 
     <build>
-        <finalName>api-gateway-service</finalName>
+        <finalName>synex-api-gateway-service</finalName>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
