@@ -10,7 +10,7 @@
     </parent>
     <groupId>com.synex</groupId>
     <artifactId>synex-api-gateway-service</artifactId>
-    <version>0.1.3</version>
+    <version>0.1.3-SNAPSHOT</version>
     <packaging>jar</packaging>
     <name>synex-api-gateway-service</name>
     <description>Api Gateway Service For Microservices</description>
